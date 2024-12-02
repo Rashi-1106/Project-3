@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore the World - Tour & Travel</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Explore<span>World</span></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="banner">
+    <div class="banner-text">
+      <img src="images/grennery.png" alt="">
+      <h2>Your Adventure Awaits</h2>
+      <p>Discover amazing destinations, unforgettable experiences, and the best travel deals.</p>
+      <a href="#destinations" class="btn">Explore Now</a>
+    </div>
+  </section>
+
+  <section id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="gallery">
+      <div class="card">
+        <img src="images/tajmahal.png" alt="Destination 1">
+        <h3>Maldives</h3>
+        <p>White sand beaches and crystal-clear waters await you.</p>
+      </div>
+      <div class="card">
+        <img src="images/hawamahal.png" alt="Destination 2">
+        <h3>Paris</h3>
+        <p>The city of love, art, and fashion.</p>
+      </div>
+      <div class="card">
+        <img src="images/goldentemple.png" alt="Destination 3">
+        <h3>Tokyo</h3>
+        <p>A blend of tradition and futuristic charm.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-item">
+        <h3>Flight Booking</h3>
+        <p>Get the best deals on domestic and international flights.</p>
+      </div>
+      <div class="service-item">
+        <h3>Hotel Reservations</h3>
+        <p>Find the perfect stay for your next adventure.</p>
+      </div>
+      <div class="service-item">
+        <h3>Customized Tours</h3>
+        <p>Plan a trip tailored just for you.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formResponse"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 ExploreWorld. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
